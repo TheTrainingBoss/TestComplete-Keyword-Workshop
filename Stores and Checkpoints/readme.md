@@ -330,7 +330,7 @@ Over the lifetime of your automated tests it\'s possible, and in fact likely, yo
 
 Your original test data will be overwritten so be sure to have a backup or preferably a version of the project committed to your sourcecontrol repository.
 
-#### Summary>
+#### Summary
 
 In this chapter, we introduced the concept of Stores & Checkpoints that TestComplete provides to help manage your test data. We looked at:
 
