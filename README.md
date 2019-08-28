@@ -1,377 +1,309 @@
-> ![](./media/image1.jpeg){width="1.4754888451443569in"
-> height="1.4757381889763779in"}**TestComplete**
->
-> **By: SMARTBEAR™ Made Easier**
+**Table of Contents**
 
-**Keyword Testing 12**
-
-**By: Alain "Lino" Tadros**
-
-![](./media/image2.jpeg){width="7.680555555555555in"
-height="3.5180555555555557in"}
-
-> [** TestComplete 12 Made Easier**]{.underline}
-
-###### by Alain "Lino" Tadros
-
-> *Welcome to TestComplete 12 Made Easier, the new guide to TestComplete
-> 12, the award winning automated testing tool from SmartBea r*
->
-> **TestComplete 12 Made Easier**
-
-##### © 2018 Alain "Lino" Tadros.
-
-> All rights reserved. No parts of this work may be reproduced in any
-> form or by any means - graphic, electronic, or mechanical, including
-> photocopying, recording, taping, or information storage and retrieval
-> systems - without the written permission of the publisher.
->
-> Products that are referred to in this document may be either
-> trademarks and/or registered trademarks of the respective owners. The
-> publisher and the author make no claim to these trademarks.
->
-> While every precaution has been taken in the preparation of this
-> document, the publisher and the author assume no responsibility for
-> errors or omissions, or for damages resulting from the use of
-> information contained in this document or from the use of programs and
-> source code that may accompany it. In no event shall the publisher and
-> the author be liable for any loss of profit or any other commercial
-> damage caused or alleged to have been caused directly or indirectly by
-> this document.
->
-> Printed: June 2018
->
-> **Table of Contents**
-
-##### Forew ord 0
-
-[Introduction 11](#Introduction)
+[Introduction](#Introduction)
 --------------------------------
 
-##### [Introduction to TestComplete 11](#Introduction)
 
-##### [Who Should Read this Book 12](#Who_Should_Read_this_Book)
-
-##### [What Do You Need to Have Before You Read this Book? 12](#What_Do_You_Need_to_Have_Before_You_Read)
-
-##### [What Do You Need to Know Before Reading this Book? 12](#What_Do_You_Need_to_Know_Before_Reading_)
-
-##### [How the Book is Organized 13](#How_the_Book_is_Organized)
-
-[Overview of TestComplete 18](#Overview_of_TestComplete)
+[Overview of TestComplete](#Overview_of_TestComplete)
 --------------------------------------------------------
 
-##### [Objectives 18](#Overview_of_TestComplete)
+##### [Objectives](#Overview_of_TestComplete)
 
-##### [About the IDE 18](#About_the_IDE)
+##### [About the IDE](#About_the_IDE)
 
-##### [Project Workspace 19](#Project_Workspace)
+##### [Project Workspace](#Project_Workspace)
 
-##### [Object Brow ser 30](#Object_Browser)
+##### [Object Browser](#Object_Browser)
 
-##### [TestComplete Toolbars 35](#TestComplete_Toolbars)
+##### [TestComplete Toolbars](#TestComplete_Toolbars)
 
-##### [Playback 37](#Playback)
+##### [Playback](#Playback)
 
-##### [Summary 42](#_bookmark60)
+##### [Summary](#_bookmark60)
 
-[Keyword Testing 44](#Keyword_Testing)
+[Keyword Testing](#Keyword_Testing)
 --------------------------------------
 
-##### [Objectives 44](#Keyword_Testing)
+##### [Objectives](#Keyword_Testing)
 
-##### [Materials 44](#_bookmark62)
+##### [Materials](#_bookmark62)
 
-##### [Editing Keyw ord Test Steps 45](#_bookmark62)
+##### [Editing Keyword Test Steps](#_bookmark62)
 
-##### [Working w ith Operations 47](#Working_with_Operations)
+##### [Working with Operations](#Working_with_Operations)
 
-##### [Adding Conditional Logic 51](#Adding_Conditional_Logic)
+##### [Adding Conditional Logic](#Adding_Conditional_Logic)
 
-##### [Working w ith Variables 57](#Working_with_Variables)
+##### [Working with Variables](#Working_with_Variables)
 
-##### [Error Handling 62](#Error_Handling)
+##### [Error Handling](#Error_Handling)
 
-##### [Summary 68](#_bookmark82)
+##### [Summary](#_bookmark82)
 
-[Project Organization 70](#Project_Organization)
+[Project Organization](#Project_Organization)
 ------------------------------------------------
 
-##### [Objectives 70](#Project_Organization)
+##### [Objectives](#Project_Organization)
 
-##### [Materials 70](#_bookmark84)
+##### [Materials](#_bookmark84)
 
-##### [The Project Workspace Editor 70](#The_Project_Workspace_Editor)
+##### [The Project Workspace Editor](#The_Project_Workspace_Editor)
 
-##### [Lab 77](#_bookmark92)
+##### [Lab](#_bookmark92)
 
-##### [Summary 79](#_bookmark93)
+##### [Summary](#_bookmark93)
 
-[Test Log 81](#Test_Log)
+[Test Log](#Test_Log)
 ------------------------
 
-##### [Objectives 81](#Test_Log)
+##### [Objectives](#Test_Log)
 
-##### [Materials 81](#_bookmark95)
+##### [Materials](#_bookmark95)
 
-##### [Test Results 82](#_bookmark95)
+##### [Test Results](#_bookmark95)
 
-##### [Log Window 83](#Log_Window)
+##### [Log Window](#Log_Window)
 
-##### [Log Structure 88](#Log_Structure)
+##### [Log Structure](#Log_Structure)
 
-##### [Logged Images 89](#Logged_Images)
+##### [Logged Images](#Logged_Images)
 
-##### [Changing Log Appearance 91](#Changing_Log_Appearance)
+##### [Changing Log Appearance](#Changing_Log_Appearance)
 
-##### [Summary 94](#_bookmark107)
+##### [Summary](#_bookmark107)
 
-[Stores and Checkpoints 96](#Stores_and_Checkpoints)
+[Stores and Checkpoints](#Stores_and_Checkpoints)
 ----------------------------------------------------
 
-##### [Objectives 96](#Stores_and_Checkpoints)
+##### [Objectives](#Stores_and_Checkpoints)
 
-##### [Materials 96](#_bookmark109)
+##### [Materials](#_bookmark109)
 
-##### [About Stores & Checkpoints 97](#_bookmark109)
+##### [About Stores & Checkpoints](#_bookmark109)
 
-##### [Updating Checkpoints 130](#Updating_Checkpoints)
+##### [Updating Checkpoints](#Updating_Checkpoints)
 
-##### [Summary 130](#_bookmark135)
+##### [Summary](#_bookmark135)
 
-[Name Mapping 132](#Name_Mapping)
+[Name Mapping](#Name_Mapping)
 ---------------------------------
 
-##### [Objectives 132](#Name_Mapping)
+##### [Objectives](#Name_Mapping)
 
-##### [Understanding Name Mapping 132](#Understanding_Name_Mapping)
+##### [Understanding Name Mapping](#Understanding_Name_Mapping)
 
-##### [Creating Name Mapping 134](#Creating_Name_Mapping)
+##### [Creating Name Mapping](#Creating_Name_Mapping)
 
-##### [Using Name Mapping Editor 141](#Using_Name_Mapping_Editor)
+##### [Using Name Mapping Editor](#Using_Name_Mapping_Editor)
 
-##### [Unique Identification 148](#Unique_Identification)
+##### [Unique Identification](#Unique_Identification)
 
-##### [Summary 150](#_bookmark155)
+##### [Summary](#_bookmark155)
 
-[TestComplete Debugging 152](#TestComplete_Debugging)
+[TestComplete Debugging](#TestComplete_Debugging)
 -----------------------------------------------------
 
-##### [Objectives 152](#TestComplete_Debugging)
+##### [Objectives](#TestComplete_Debugging)
 
-##### [Materials 152](#_bookmark157)
+##### [Materials](#_bookmark157)
 
-##### [Debugging Tests 152](#_bookmark157)
+##### [Debugging Tests](#_bookmark157)
 
-##### [Exploring Debugger Panels 154](#Exploring_Debugger_Panels)
+##### [Exploring Debugger Panels](#Exploring_Debugger_Panels)
 
-##### [Summary 158](#_bookmark168)
+##### [Summary](#_bookmark168)
 
-[Event Handling 160](#Event_Handling)
+[Event Handling](#Event_Handling)
 -------------------------------------
 
-##### [Objectives 160](#Event_Handling)
+##### [Objectives](#Event_Handling)
 
-##### [Materials 160](#_bookmark170)
+##### [Materials](#_bookmark170)
 
-##### [Using Events 161](#_bookmark170)
+##### [Using Events](#_bookmark170)
 
-##### [Creating an Event Handler 162](#Creating_an_Event_Handler)
+##### [Creating an Event Handler](#Creating_an_Event_Handler)
 
-##### [Handling Unexpected Window s 165](#Handling_Unexpected_Windows)
+##### [Handling Unexpected Windows](#Handling_Unexpected_Windows)
 
-##### [Lab 168](#_bookmark176)
+##### [Lab](#_bookmark176)
 
-##### [Summary 172](#_bookmark179)
+##### [Summary](#_bookmark179)
 
-[Data Driven Testing 174](#Data_Driven_Testing)
+[Data Driven Testing](#Data_Driven_Testing)
 -----------------------------------------------
 
-##### [Objectives 174](#Data_Driven_Testing)
+##### [Objectives](#Data_Driven_Testing)
 
-##### [Materials 174](#_bookmark181)
+##### [Materials](#_bookmark181)
 
-##### [The DB Table Object 174](#_bookmark181)
+##### [The DB Table Object](#_bookmark181)
 
-##### [Creating a Data Driven Test 180](#Creating_a_Data_Driven_Test)
+##### [Creating a Data Driven Test](#Creating_a_Data_Driven_Test)
 
-##### [Database Table Checkpoint 187](#Database_Table_Checkpoint)
+##### [Database Table Checkpoint](#Database_Table_Checkpoint)
 
-##### [Summary 193](#_bookmark193)
+##### [Summary](#_bookmark193)
 
-[Web Testing 195](#Web_Testing)
+[Web Testing](#Web_Testing)
 -------------------------------
 
-##### [Objectives 195](#Web_Testing)
+##### [Objectives](#Web_Testing)
 
-##### [Materials 195](#_bookmark195)
+##### [Materials](#_bookmark195)
 
-##### [Web Application Testing Issues 195](#Web_Application_Testing_Issues)
+##### [Web Application Testing Issues](#Web_Application_Testing_Issues)
 
 ##### [Understanding The TestComplete View of Web](#Understanding_The_TestComplete_View_of_W)
 
-##### [Applications 196](#Understanding_The_TestComplete_View_of_W)
+##### [Applications](#Understanding_The_TestComplete_View_of_W)
 
-##### [Web Tree Models 199](#Web_Tree_Models)
+##### [Web Tree Models](#Web_Tree_Models)
 
-##### [Web Stores & Checkpoints 200](#Web_Stores_&_Checkpoints)
+##### [Web Stores & Checkpoints](#Web_Stores_&_Checkpoints)
 
-##### [Summary 206](#_bookmark207)
+##### [Summary](#_bookmark207)
 
-[Mobile 208](#Mobile)
+[Mobile](#Mobile)
 ---------------------
 
-##### [Objectives 208](#Mobile)
+##### [Objectives](#Mobile)
 
-##### [Materials 208](#_bookmark209)
+##### [Materials](#_bookmark209)
 
-##### [Mobile Testing Strategies 209](#_bookmark209)
+##### [Mobile Testing Strategies](#_bookmark209)
 
-##### [Mobile Web 210](#Mobile_Web)
+##### [Mobile Web](#Mobile_Web)
 
-##### [Android 216](#Android)
+##### [Android](#Android)
 
-##### [Summary 241](#Xamarin_Open_Apps_Testing)
+##### [Summary](#Xamarin_Open_Apps_Testing)
 
-[Web Services Testing 243](#Web_Services_Testing)
+[Web Services Testing](#Web_Services_Testing)
 -------------------------------------------------
 
-##### [Objectives 243](#Web_Services_Testing)
+##### [Objectives](#Web_Services_Testing)
 
-##### [Materials 243](#_bookmark230)
+##### [Materials](#_bookmark230)
 
-##### [Overview of Web Services 243](#_bookmark230)
+##### [Overview of Web Services](#_bookmark230)
 
-##### [Web Service Example 244](#Web_Service_Example)
+##### [Web Service Example](#Web_Service_Example)
 
-##### [Importing a Web Service 245](#Importing_a_Web_Service)
+##### [Importing a Web Service](#Importing_a_Web_Service)
 
-##### [Lab: Using a Web Service From a Keyw ord Test 248](#Lab:_Using_a_Web_Service_From_a_Keyword_)
+##### [Lab: Using a Web Service From a Keyw ord Test](#Lab:_Using_a_Web_Service_From_a_Keyword_)
 
-##### [Web Services Checkpoints 251](#Web_Services_Checkpoints)
+##### [Web Services Checkpoints](#Web_Services_Checkpoints)
 
-##### [Web Services Test Log Results 252](#Web_Services_Test_Log_Results)
+##### [Web Services Test Log Results](#Web_Services_Test_Log_Results)
 
-##### [Lab: Using the Web Services Checkpoint From a Keyword Test 255](#Lab:_Using_the_Web_Services_Checkpoint_F)
+##### [Lab: Using the Web Services Checkpoint From a Keyword Test](#Lab:_Using_the_Web_Services_Checkpoint_F)
 
-##### [XML Checkpoint 259](#XML_Checkpoint)
+##### [XML Checkpoint](#XML_Checkpoint)
 
-##### [Summary 261](#_bookmark241)
+##### [Summary](#_bookmark241)
 
-[Distributed Testing 263](#_bookmark242)
+[Distributed Testing](#_bookmark242)
 ----------------------------------------
 
-##### [Objectives 263](#_bookmark242)
+##### [Objectives](#_bookmark242)
 
-[Materials 263](#about-the-network-suite)
+[Materials](#about-the-network-suite)
 
-[About the Netw ork Suite 263](#about-the-network-suite)
+[About the Netw ork Suite](#about-the-network-suite)
 
-[Setting up a Distributed Test 265](#setting-up-a-distributed-test)
+[Setting up a Distributed Test](#setting-up-a-distributed-test)
 
-[Executing Distributed Tests 277](#executing-distributed-tests)
+[Executing Distributed Tests](#executing-distributed-tests)
 
-[Lab: Simple Distributed Test 281](#lab-simple-distributed-test)
+[Lab: Simple Distributed Test](#lab-simple-distributed-test)
 
-[Summary 283](#summary)
+[Summary](#summary)
 
-15. [Manual Testing 285](#manual-testing-2)
+#### [Manual Testing](#manual-testing-2)
 
-[Objectives 285](#manual-testing-2)
+[Objectives](#manual-testing-2)
 
-[Materials 285](#_bookmark267)
+[Materials](#_bookmark267)
 
-[About Manual Testing 286](#_bookmark268)
+[About Manual Testing](#_bookmark268)
 
-[Creating Manual Tests 287](#creating-manual-tests)
+[Creating Manual Tests](#creating-manual-tests)
 
-[Manual Test Interaction With Automated Tests
-291](#manual-test-interaction-with-automated-tests)
+[Manual Test Interaction With Automated Tests](#manual-test-interaction-with-automated-tests)
 
-[Exporting a Manual Test 296](#exporting-a-manual-test)
+[Exporting a Manual Test](#exporting-a-manual-test)
 
-[Importing a Manual Test 299](#importing-a-manual-test)
+[Importing a Manual Test](#importing-a-manual-test)
 
-[Legacy Migration 304](#legacy-migration)
+[Legacy Migration](#legacy-migration)
 
-[Summary 304](#summary-1)
+[Summary](#summary-1)
 
-16. [Low Level Procedures 306](#low-level-procedures-2)
+#### [Low Level Procedures](#low-level-procedures-2)
 
-[Objectives 306](#low-level-procedures-2)
+[Objectives](#low-level-procedures-2)
 
-[Materials 306](#about-low-level-procedures)
+[Materials](#about-low-level-procedures)
 
-[About Low Level Procedures 306](#about-low-level-procedures)
+[About Low Level Procedures](#about-low-level-procedures)
 
-[Recording Low Level Procedures 307](#recording-low-level-procedures)
+[Recording Low Level Procedures](#recording-low-level-procedures)
 
-[Calling Low Level Procedures from Keyw ord Tests
-312](#calling-low-level-procedures-from-keyword-tests)
+[Calling Low Level Procedures from Keyw ord Tests](#calling-low-level-procedures-from-keyword-tests)
 
-[Summary 312](#summary-2)
+[Summary](#summary-2)
 
-17. [User Forms 314](#user-forms-2)
+#### [User Forms](#user-forms-2)
 
-[Objectives 314](#user-forms-2)
+[Objectives](#user-forms-2)
 
-[Materials 314](#Materials)
+[Materials](#Materials)
 
-[Using the Designer 314](#_bookmark297)
+[Using the Designer](#_bookmark297)
 
-##### [Calling User Forms in a Keyw ord Test 319](#Calling_User_Forms_in_a_Keyword_Test)
+[Calling User Forms in a Keyw ord Test](#Calling_User_Forms_in_a_Keyword_Test)
 
-##### [Summary 322](#_bookmark303)
+[Summary](#_bookmark303)
 
-[Best Practices 324](#Best_Practices)
+####[Best Practices](#Best_Practices)
 -------------------------------------
 
-##### [Objectives 324](#Best_Practices)
+[Objectives](#Best_Practices)
 
-##### [Communicating Test Results 324](#Communicating_Test_Results)
+[Communicating Test Results](#Communicating_Test_Results)
 
-##### [Plan your testing, but not that kind of planning 324](#Plan_your_testing,_but_not_that_kind_of_)
+[Plan your testing, but not that kind of planning](#Plan_your_testing,_but_not_that_kind_of_)
 
-##### [Organizing your TestComplete Projects 325](#Organizing_your_TestComplete_Projects)
+[Organizing your TestComplete Projects](#Organizing_your_TestComplete_Projects)
 
-##### [Use a Source Control Repository 325](#Use_a_Source_Control_Repository)
+[Use a Source Control Repository](#Use_a_Source_Control_Repository)
 
-##### [Your Most Important Test 325](#Your_Most_Important_Test)
+[Your Most Important Test](#Your_Most_Important_Test)
 
-##### [General 327](#General)
+[General](#General)
 
-##### [Web Page 327](#Web_Page)
+[Web Page](#Web_Page)
 
-##### [Summary 327](#Summary)
+[Summary](#Summary)
 
-[SmartBear 329](#_bookmark315)
-------------------------------
-
-##### [History 329](#_bookmark315)
-
-##### [Product Offerings 331](#_bookmark316)
-
-20. [Professional Offering 336](#_bookmark321)
-    ------------------------------------------
-
-21. [Appendix A - Cheat Sheet 339](#Appendix_A_-_Cheat_Sheet)
+#### [Appendix A - Cheat Sheet](#Appendix_A_-_Cheat_Sheet)
     ---------------------------------------------------------
 
-##### [Keyboard Shortcuts 339](#Appendix_A_-_Cheat_Sheet)
+[Keyboard Shortcuts](#Appendix_A_-_Cheat_Sheet)
 
-##### [Keyboard Handling in Recorder 343](#Keyboard_Handling_in_Recorder)
+[Keyboard Handling in Recorder](#Keyboard_Handling_in_Recorder)
 
-##### [Configuring Global Shortcuts 344](#Configuring_Global_Shortcuts)
+[Configuring Global Shortcuts](#Configuring_Global_Shortcuts)
 
-##### [Configuring Keyboard Emulation 345](#Configuring_Keyboard_Emulation)
+[Configuring Keyboard Emulation](#Configuring_Keyboard_Emulation)
 
-[Appendix B - Types of Testing 347](#Appendix_B_-_Types_of_Testing)
+#### [Appendix B - Types of Testing](#Appendix_B_-_Types_of_Testing)
 -------------------------------------------------------------------
 
-##### [Types of Testing 347](#Types_of_Testing)
+[Types of Testing](#Types_of_Testing)
 
-Index 349
----------
 
 ### Introduction
 
