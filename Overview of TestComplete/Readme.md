@@ -8,7 +8,7 @@ This chapter takes you on a tour of the TestComplete IDE including the windows t
 
 The layout of TestComplete is quite similar to other software development tools such as Visual Studio. Below is screenshot of the TestComplete **Integrated Development Environment** or **\"IDE\"**.
 
-![](././media/image4.jpeg)
+![](../media/image4.jpeg)
 
 The TestComplete IDE contains two main tabs:
 
