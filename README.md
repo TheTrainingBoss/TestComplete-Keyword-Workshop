@@ -3,7 +3,7 @@
 [Overview of TestComplete](./Overview%20of%20TestComplete/Readme.md)
 --------------------------------------------------------
 
-[Keyword Testing](#Keyword_Testing)
+[Keyword Testing](./Keyword%20Testing/readme.md)
 --------------------------------------
 
 [Project Organization](#Project_Organization)
