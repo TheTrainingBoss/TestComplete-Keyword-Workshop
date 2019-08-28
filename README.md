@@ -209,100 +209,100 @@
 
 ##### [Objectives](#_bookmark242)
 
-[Materials](#about-the-network-suite)
+##### [Materials](#about-the-network-suite)
 
-[About the Netw ork Suite](#about-the-network-suite)
+##### [About the Netw ork Suite](#about-the-network-suite)
 
-[Setting up a Distributed Test](#setting-up-a-distributed-test)
+##### [Setting up a Distributed Test](#setting-up-a-distributed-test)
 
-[Executing Distributed Tests](#executing-distributed-tests)
+##### [Executing Distributed Tests](#executing-distributed-tests)
 
-[Lab: Simple Distributed Test](#lab-simple-distributed-test)
+##### [Lab: Simple Distributed Test](#lab-simple-distributed-test)
 
-[Summary](#summary)
+##### [Summary](#summary)
 
-#### [Manual Testing](#manual-testing-2)
+[Manual Testing](#manual-testing-2)
+---------------------------------------
+##### [Objectives](#manual-testing-2)
 
-[Objectives](#manual-testing-2)
+##### [Materials](#_bookmark267)
 
-[Materials](#_bookmark267)
+##### [About Manual Testing](#_bookmark268)
 
-[About Manual Testing](#_bookmark268)
+##### [Creating Manual Tests](#creating-manual-tests)
 
-[Creating Manual Tests](#creating-manual-tests)
+##### [Manual Test Interaction With Automated Tests](#manual-test-interaction-with-automated-tests)
 
-[Manual Test Interaction With Automated Tests](#manual-test-interaction-with-automated-tests)
+##### [Exporting a Manual Test](#exporting-a-manual-test)
 
-[Exporting a Manual Test](#exporting-a-manual-test)
+##### [Importing a Manual Test](#importing-a-manual-test)
 
-[Importing a Manual Test](#importing-a-manual-test)
+##### [Legacy Migration](#legacy-migration)
 
-[Legacy Migration](#legacy-migration)
+##### [Summary](#summary-1)
 
-[Summary](#summary-1)
+[Low Level Procedures](#low-level-procedures-2)
+---------------------------------------------------
+##### [Objectives](#low-level-procedures-2)
 
-#### [Low Level Procedures](#low-level-procedures-2)
+##### [Materials](#about-low-level-procedures)
 
-[Objectives](#low-level-procedures-2)
+##### [About Low Level Procedures](#about-low-level-procedures)
 
-[Materials](#about-low-level-procedures)
+##### [Recording Low Level Procedures](#recording-low-level-procedures)
 
-[About Low Level Procedures](#about-low-level-procedures)
+##### [Calling Low Level Procedures from Keyw ord Tests](#calling-low-level-procedures-from-keyword-tests)
 
-[Recording Low Level Procedures](#recording-low-level-procedures)
+##### [Summary](#summary-2)
 
-[Calling Low Level Procedures from Keyw ord Tests](#calling-low-level-procedures-from-keyword-tests)
+[User Forms](#user-forms-2)
+--------------------------------
+##### [Objectives](#user-forms-2)
 
-[Summary](#summary-2)
+##### [Materials](#Materials)
 
-#### [User Forms](#user-forms-2)
+##### [Using the Designer](#_bookmark297)
 
-[Objectives](#user-forms-2)
+##### [Calling User Forms in a Keyw ord Test](#Calling_User_Forms_in_a_Keyword_Test)
 
-[Materials](#Materials)
+##### [Summary](#_bookmark303)
 
-[Using the Designer](#_bookmark297)
-
-[Calling User Forms in a Keyw ord Test](#Calling_User_Forms_in_a_Keyword_Test)
-
-[Summary](#_bookmark303)
-
-####[Best Practices](#Best_Practices)
+[Best Practices](#Best_Practices)
 -------------------------------------
 
-[Objectives](#Best_Practices)
+##### [Objectives](#Best_Practices)
 
-[Communicating Test Results](#Communicating_Test_Results)
+##### [Communicating Test Results](#Communicating_Test_Results)
 
-[Plan your testing, but not that kind of planning](#Plan_your_testing,_but_not_that_kind_of_)
+##### [Plan your testing, but not that kind of planning](#Plan_your_testing,_but_not_that_kind_of_)
 
-[Organizing your TestComplete Projects](#Organizing_your_TestComplete_Projects)
+##### [Organizing your TestComplete Projects](#Organizing_your_TestComplete_Projects)
 
-[Use a Source Control Repository](#Use_a_Source_Control_Repository)
+##### [Use a Source Control Repository](#Use_a_Source_Control_Repository)
 
-[Your Most Important Test](#Your_Most_Important_Test)
+##### [Your Most Important Test](#Your_Most_Important_Test)
 
-[General](#General)
+##### [General](#General)
 
-[Web Page](#Web_Page)
+##### [Web Page](#Web_Page)
 
-[Summary](#Summary)
+##### [Summary](#Summary)
 
-#### [Appendix A - Cheat Sheet](#Appendix_A_-_Cheat_Sheet)
-    ---------------------------------------------------------
+[Appendix A - Cheat Sheet](#Appendix_A_-_Cheat_Sheet)
+------------------------------------------------------------
 
-[Keyboard Shortcuts](#Appendix_A_-_Cheat_Sheet)
+##### [Keyboard Shortcuts](#Appendix_A_-_Cheat_Sheet)
 
-[Keyboard Handling in Recorder](#Keyboard_Handling_in_Recorder)
+##### [Keyboard Handling in Recorder](#Keyboard_Handling_in_Recorder)
 
-[Configuring Global Shortcuts](#Configuring_Global_Shortcuts)
+##### [Configuring Global Shortcuts](#Configuring_Global_Shortcuts)
 
-[Configuring Keyboard Emulation](#Configuring_Keyboard_Emulation)
+##### [Configuring Keyboard Emulation](#Configuring_Keyboard_Emulation)
 
-#### [Appendix B - Types of Testing](#Appendix_B_-_Types_of_Testing)
+[Appendix B - Types of Testing](#Appendix_B_-_Types_of_Testing)
 -------------------------------------------------------------------
 
-[Types of Testing](#Types_of_Testing)
+##### [Types of Testing](#Types_of_Testing)
 
 
 ### Introduction
