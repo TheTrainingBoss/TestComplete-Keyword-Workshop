@@ -1,7 +1,6 @@
 **Table of Contents**
 
-[Test](./Overview%20of%20TestComplete/readme.md)
-[Overview of TestComplete](#overview-of-testcomplete\readme.md)
+[Overview of TestComplete](./Overview%20of%20TestComplete/readme.md)
 --------------------------------------------------------
 
 [Keyword Testing](#Keyword_Testing)
@@ -292,7 +291,7 @@
 
 ### Keyword Testing
 
-3.  []{#Keyword_Testing .anchor}**Keyword Testing**
+1.  []{#Keyword_Testing .anchor}**Keyword Testing**
 
 > **Objectives**
 >
