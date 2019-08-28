@@ -12,7 +12,7 @@
 [Test Log](./Test%20Log/readme.md)
 ------------------------
 
-[Stores and Checkpoints](#Stores_and_Checkpoints)
+[Stores and Checkpoints](./Stores%20and%20Checkpoints/readme.md)
 ----------------------------------------------------
 
 [Name Mapping](#Name_Mapping)
