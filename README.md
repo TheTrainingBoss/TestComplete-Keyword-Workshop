@@ -1,6 +1,6 @@
 **Table of Contents**
 
-[Test](../Overview-of-testcomplete/readme.md)
+[Test](./Overview-of-testcomplete/readme.md)
 [Overview of TestComplete](#overview-of-testcomplete\readme.md)
 --------------------------------------------------------
 
