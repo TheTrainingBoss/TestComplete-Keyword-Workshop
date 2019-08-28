@@ -20,17 +20,17 @@ Use Test Items to reuse tests and to organize tests into larger groups. The Proj
 
 The screenshot below shows that both keyword and script tests can be organized into nested folders, renamed with friendly names and configured. The Test Items tab in the screenshot below shows a \"Smoke Tests\" group that contains an \"Order Entry\" group. Inside the \"Order Entry\" group is yet another group called \"Create Order\" that contains both keyword and script tests. Notice that you can place tests and/or groups at any level.
 
-![](./media/image62.png)
+![](../media/image62.png)
 
 If you click the **Run Project** button from the main toolbar, a dialog like the one in the screenshot below may display complaining that there are no \"test items\". This dialog is telling you that you need to navigate to the project\'s Test Items and add tests.
 
-![](./media/image63.png)
+![](../media/image63.png)
 
 ##### Adding Test Items
 
 Add items to the Test Items grid by either dragging tests from the Project Explorer, using the context menu or the toolbar. The screenshot below shows a script test being dragged and added as a Test Item.
 
-![](./media/image64.png)
+![](../media/image64.png)
 
 You can only drag script units that contain at least one function and that have no syntax errors. Dragging a script unit to the test Items area includes all the functions within that unit. To be more selective, click the **Test** column and choose a single function for that test item.
 
@@ -39,7 +39,7 @@ You can only drag script units that contain at least one function and that have 
 Each line in the Test Items grid represents either a folder or a test. You can disable an item from being run by unselecting the checkbox.
 This prevents the item and any of its children from running.
 
-![](./media/image65.png)
+![](../media/image65.png)
 
 **Name** \-- The friendly name of the test item as it will appear in the log.
 
@@ -51,7 +51,7 @@ This prevents the item and any of its children from running.
 
 **Parameters** \-- This column lists parameters passed to the Test Item. The parameters are picked up automatically when a test is assigned. Click the ellipses in the column to display the **Test Parameters** dialog where you can adjust the **Value** for each parameter.
 
-![](./media/image66.png)
+![](../media/image66.png)
 
 
 **Description** \-- A user friendly description of the Test Item.
@@ -60,13 +60,13 @@ This prevents the item and any of its children from running.
 
 By default, **Stop on Error** and **Stop on Exception** columns don\'t appear. To add them, right-click the Test Items grid and select Field Chooser from the context menu. The Customization dialog will appear with any columns that aren\'t showing. Drag columns to the grid heading, watching for the arrow indicators to show where the column will be inserted. You can also remove columns by dragging them back to the Customization dialog.
 
-![](./media/image67.png)
+![](../media/image67.png)
 
 ##### Test Items Toolbar
 
 The toolbar and context menu for the Test Items area have roughly the same options that allow you to build the structure of the Test Items tree view.
 
-![](./media/image68.jpeg)
+![](../media/image68.jpeg)
 
 **Add Child Test Item \--** Adds a child test item just below the selected item. You can use the context menu to add a new top level item.
 
@@ -88,7 +88,7 @@ The toolbar and context menu for the Test Items area have roughly the same optio
 
 The **Variables** tab of the Project Workspace Editor allows you to define **Temporary Variables** that are active only during one test run and **Persistent Variables** that are available between tests runs.
 
-![](./media/image69.png)
+![](../media/image69.png)
 
 **Name** \-- The name of the variable. The name must be alpha-numeric, must not contain spaces and must start with an alpha character. If these naming rules are not followed, Name entry reverts to its previous contents when you press enter.
 
@@ -118,29 +118,29 @@ In this Lab you will use Test Items to build a \"Smoke Test\" from other tests.
 
 - In the Test Items window, click the **Add New Group** button on the toolbar. Click the group and rename it \"Smoke Test\".
 
-![](./media/image70.png)
+![](../media/image70.png)
 
 - Click the **Add Subgroup** button and rename the subgroup \"Order Entry\".
 
-![](./media/image71.png)
+![](../media/image71.png)
 
 - From the Project Explorer, drag the \"Login\" test and drop it on the \"Order Entry\" group.
 
-![](./media/image72.jpeg)
+![](../media/image72.jpeg)
 
 - Click the \"ProjectTestItem1\" and rename the test item \"Login\".
 
 - Repeat dragging tests \"AddOrderHeader\", \"AddOrderDetail\" and \"Logout\" to the \"OrderEntry\" subgroup and name them \"Add Order Header\", \"Add Order Detail\" and \"Logout\", respectively. The Test Items should now look like the screenshot below.
 
-![](./media/image73.png)
+![](../media/image73.png)
 
 - Click the **Run Project** button from the TestComplete toolbar.
 
-![](./media/image74.png)
+![](../media/image74.png)
 
 - When the test completes, the test log will display. Notice that the structure of the log matches the structure of the test items.
 
-![](./media/image75.png)
+![](../media/image75.png)
 
 #### Summary
 
