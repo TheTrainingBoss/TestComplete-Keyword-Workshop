@@ -1,7 +1,5 @@
 ### Overview of TestComplete
 
-2.  []{#Overview_of_TestComplete .anchor}**Overview of TestComplete**
-
  **Objectives**
 
 This chapter takes you on a tour of the TestComplete IDE including the windows that make up the Workspace and Object Browser. You will learn about the layout of the IDE, how project suites and projects are organized and how the TestComplete Object Browser works with processes and applications in your system. You will learn about the tools for recording and playing back tests. Finally, you see how the innovative Test Visualizer allows you to work with visual elements, even when the test is no longer running.
@@ -10,7 +8,7 @@ This chapter takes you on a tour of the TestComplete IDE including the windows t
 
 The layout of TestComplete is quite similar to other software development tools such as Visual Studio. Below is screenshot of the TestComplete **Integrated Development Environment** or **\"IDE\"**.
 
-![](./media/image4.jpeg)
+![](././media/image4.jpeg)
 
 The TestComplete IDE contains two main tabs:
 
