@@ -1,6 +1,6 @@
 **Table of Contents**
 
-[Overview of TestComplete](./Overview%20of%20TestComplete/readme.md)
+[Overview of TestComplete](./Overview%20of%20TestComplete/Readme.md)
 --------------------------------------------------------
 
 [Keyword Testing](#Keyword_Testing)
