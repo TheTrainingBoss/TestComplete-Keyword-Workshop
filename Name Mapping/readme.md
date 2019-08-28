@@ -16,21 +16,17 @@ In order to manipulate and inspect elements of an application appearing on scree
 
 TestComplete provides several different ways to refer to the same control. Below is a table containing various paths used to denote the \"Customer\" edit field on the \"New Order" dialog from the \"Orders\" sample application. The Name Mapping and Alias values were created automatically by TestComplete during a simple recording.
 
-+-----------------------------------+-----------------------------------+
+
 | **Reference**                     | **Example**                       |
-+===================================+===================================+
+| ---|---|
 | **FullName Property**             | Sys.Process(\"Orders\").WinFormsO |
-|                                   | bject(\"OrderForm\").             |
-|                                   | WinFormsObject(\"Group\").        |
-|                                   |                                   |
+|                                     bject(\"OrderForm\").             |
+|                                     WinFormsObject(\"Group\").        |
 |                                   | WinFormsObject(\"Customer\")      |
-+-----------------------------------+-----------------------------------+
-| **Name Mapping**                  | NameMapping.Sys.Orders.OrderForm. |
-|                                   | Group.Customer                    |
-+-----------------------------------+-----------------------------------+
+| **Name Mapping**                    NameMapping.Sys.Orders.OrderForm. |
+|                                     Group.Customer                    |
 | **Alias**                         | Aliases.Orders.OrderForm.Group.Cu |
 |                                   | stomer                            |
-+-----------------------------------+-----------------------------------+
 
 As you can see the **Name Mapping** has a one-to-one correspondence with objects found in the **FullName** though the **Aliases** path is more flexible and can be more specific to the Orders application by omitting the **Sys** node.
 
