@@ -19,14 +19,9 @@ TestComplete provides several different ways to refer to the same control. Below
 
 | **Reference**                     | **Example**                       |
 | ---|---|
-| **FullName Property**             | Sys.Process(\"Orders\").WinFormsO |
-|                                     bject(\"OrderForm\").             |
-|                                     WinFormsObject(\"Group\").        |
-|                                   | WinFormsObject(\"Customer\")      |
-| **Name Mapping**                    NameMapping.Sys.Orders.OrderForm. |
-|                                     Group.Customer                    |
-| **Alias**                         | Aliases.Orders.OrderForm.Group.Cu |
-|                                   | stomer                            |
+| **FullName Property**             | Sys.Process(\"Orders\").WinFormsObject(\"OrderForm\").WinFormsObject(\"Group\").WinFormsObject(\"Customer\")|
+| **Name Mapping**                    NameMapping.Sys.Orders.OrderForm.Group.Customer|
+| **Alias**                         | Aliases.Orders.OrderForm.Group.Customer|
 
 As you can see the **Name Mapping** has a one-to-one correspondence with objects found in the **FullName** though the **Aliases** path is more flexible and can be more specific to the Orders application by omitting the **Sys** node.
 
