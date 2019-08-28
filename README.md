@@ -18,18 +18,8 @@
 [Name Mapping](./Name%20Mapping/readme.md)
 -----------------------------------------
 
-[TestComplete Debugging](#TestComplete_Debugging)
+[TestComplete Debugging](./Debugging/readme.md)
 --------------------------------------------------
-
-##### [Objectives](#TestComplete_Debugging)
-
-##### [Materials](#_bookmark157)
-
-##### [Debugging Tests](#_bookmark157)
-
-##### [Exploring Debugger Panels](#Exploring_Debugger_Panels)
-
-##### [Summary](#_bookmark168)
 
 [Event Handling](#Event_Handling)
 -------------------------------------
