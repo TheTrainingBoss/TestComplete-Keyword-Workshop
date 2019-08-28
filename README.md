@@ -1,21 +1,8 @@
 **Table of Contents**
 
+[Test](../Overview-of-testcomplete/readme.md)
 [Overview of TestComplete](#overview-of-testcomplete\readme.md)
 --------------------------------------------------------
-
-##### [Objectives](#Overview_of_TestComplete)
-
-##### [About the IDE](#About_the_IDE)
-
-##### [Project Workspace](#Project_Workspace)
-
-##### [Object Browser](#Object_Browser)
-
-##### [TestComplete Toolbars](#TestComplete_Toolbars)
-
-##### [Playback](#Playback)
-
-##### [Summary](#_bookmark60)
 
 [Keyword Testing](#Keyword_Testing)
 --------------------------------------
