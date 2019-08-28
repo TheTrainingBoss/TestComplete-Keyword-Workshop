@@ -20,7 +20,7 @@ TestComplete provides several different ways to refer to the same control. Below
 | **Reference**                     | **Example**                       |
 | ---|---|
 | **FullName Property**             | Sys.Process(\"Orders\").WinFormsObject(\"OrderForm\").WinFormsObject(\"Group\").WinFormsObject(\"Customer\")|
-| **Name Mapping**                  |  NameMapping.Sys.Orders.OrderForm.Group.Customer|
+| **Name Mapping**                  | NameMapping.Sys.Orders.OrderForm.Group.Customer|
 | **Alias**                         | Aliases.Orders.OrderForm.Group.Customer|
 
 As you can see the **Name Mapping** has a one-to-one correspondence with objects found in the **FullName** though the **Aliases** path is more flexible and can be more specific to the Orders application by omitting the **Sys** node.
@@ -92,17 +92,13 @@ The screenshot below shows the Object Name Mapping dialog for an edit box named 
 ![](../media/image146.png)
 
 The table below explains the elements of the Object Name Mapping dialog.
-
-  **Item**                   **Meaning**
-  -------------------------- --------------------------------------------------------------------
-  **Mapped Object Name**     Name of the object as it will appear in code.
-  **Selected Properties**    Properties used for object identification.
-  **Available Properties**   Properties that can be used to augment the object\'s Name Mapping.
-
-  **Item**            **Meaning**
-  ------------------- ---------------------------------------------------------------------------------------------
-  **Templates**       Provides the option to customize the default properties used for a specific type of object.
-  **Extended Find**   Option to expand the search for this object to all descendant objects of the parent.
+|**Item**|**Meaning**|
+|---|---|
+|**Mapped Object Name**|Name of the object as it will appear in code|
+|**Selected Properties**|Properties used for object identification|
+|**Available Properties**|Properties that can be used to augment the object\'s Name Mapping|
+|**Templates**|Provides the option to customize the default properties used for a specific type of object|
+|**Extended Find**|Option to expand the search for this object to all descendant objects of the parent|
 
 #### Using Name Mapping Editor
 
