@@ -98,13 +98,11 @@ TestComplete provides a specific type of Project Item, **TestedApps**, which all
 
 ##### Adding TestedApps to a Project
 
-1.  On the Project Explorer, right click the TestedApps node and select
-    **Add \| New Item\...**
+1.  On the Project Explorer, right click the TestedApps node and select  **Add \| New Item\...**
 
-2.  Click the button for the **Application** entry and choose a path to
-    an executable file. 
+2.  Click the button for the **Application** entry and choose a path to an executable file. 
     
-**Note**
+#### Note
 
 You can also use the Object Browser to find a running application and select **Add Process to TestedApps** from the context menu.
 
@@ -132,20 +130,18 @@ To run a TestedApp from a Keyword test:
 
 ![](../media/image13.png)
 
-2.  Select the TestedApp you want to run in your keyword test. Click the
-    **Finish** button.
+2.  Select the TestedApp you want to run in your keyword test. Click the **Finish** button.
 
 ![](../media/image14.png)
 
 To run a TestedApp from Script use the **TestedApps** object, followed by the name of the TestedApp you have defined and then call the **Run()** method.
 TestedApps.NotePad.Run();
 
-**Object Browser**
+#### Object Browser
 
 The **Object Browser** is the core technology enabling TestComplete to perform automation. Understanding how it works is fundamental to successfully developing automated tests.
 The **Object Browser** displays how TestComplete \"sees\" your system, displaying a tree view representation of all of the Processes, Windows, Controls and Objects found on your machine. For each object, TestComplete provides a list of all **Properties** and **Methods**.
-The screenshot below shows the Object Browser window and the selected
-Properties for the \"Orders\" process.
+The screenshot below shows the Object Browser window and the selected Properties for the \"Orders\" process.
 
 ![](../media/image15.jpeg)
 **Figure 7 \--The Object Brow ser**
@@ -221,7 +217,7 @@ The Object Browser Context Menu lets you work with individual processes and wind
 
 **Panel Options\...** \-- Navigates to the main menu\'s **Tools \|Options** page for the Object Browser.
 
-**TestComplete Toolbars**
+#### TestComplete Toolbars
 
 TestComplete has toolbars configured right out-of-the-box and you can also setup your own toolbars. The Tools and Test Engine toolbars below provide quick access to tasks you want to perform on-the-fly.
 
@@ -307,12 +303,12 @@ In addition to the above methods, Keyword Tests can be called directly from a sc
 **function** Test()
 {
 
- KeywordTests.Test1.Run();
+  KeywordTests.Test1.Run();
 
- }
+}
 
-**Sub** Test KeywordTests.Test1.Run
-
+**Sub** 
+  Test KeywordTests.Test1.Run
 **End Sub**
 
 The screenshot below shows \"Unit1\" with the new \"Test\" function.
