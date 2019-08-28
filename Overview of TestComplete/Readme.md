@@ -35,7 +35,7 @@ The most critical editor you will see in the Workspace is for an opened project.
 
 The Project Explorer panel contains **Project Explorer** and **Code Explorer** tabs. (Starting TestComplete 14, Code Explorer is disabled by default, feel free to re-enable it from the Options dialog)
 
-##### Project Explorer
+#### Project Explorer
 
 Test organization in TestComplete has three main levels: project suite, project and project items. The **Project Explorer** tab
 provides a hierarchical view of the open ProjectSuite and any projects contained within it. Each project contains project items such as \"Events\" or \"Script\". Within the project items are child elements appropriate to the type of project item, such as script units for example. The Project Explorer also contains a **ProjectSuite Logs** node that contains test logs grouped by project.
@@ -43,12 +43,12 @@ provides a hierarchical view of the open ProjectSuite and any projects contained
 ![](../media/image6.png)
  **Figure 2 \--Project Explorer Tab**
 
-##### Project Suites
+#### Project Suites
 
 TestComplete organizes files into **Project Suites and** **Projects**.
 Project Suites contain one or more projects. Project suites are created automatically when a new project is created. Project suites can also be created manually before adding new projects. Project Suites provide a root folder for organizing the contents of your automated tests. While you can have more than one project in a ProjectSuite you can also have multiple Project Suites but only one may be open at any time within TestComplete.
 
-##### Projects
+#### Projects
 
 **Projects** contain **Project Items** which are specific types of functionality useful for performing various types of automation. From the **Project Explorer** you can create, edit, and delete **Project Items** in your project using the context menu options: 
 ![](../media/image7.jpeg)
@@ -56,24 +56,24 @@ Project Suites contain one or more projects. Project suites are created automati
 
 To add, rename or remove **Project Items,** right click the Project node in the Project Explorer and select **Add \| New Item\..., Rename** or **Remove**. TestComplete allows you completely customize your projects through the Project Explorer context menu. If you\'re using TestComplete in conjunction with a Source Control repository you can access the options for checking in/out various project files from the context menu using the **Source Control** option. For details on configuring a Source Control Provider refer to TestComplete online help.
 
-##### Project Item Elements
+#### Project Item Elements
 
 Project Items may contain zero or more **Project Item Elements** depending on the specific item. Project Item Elements represent the testing functionality of the Project Item or serve to organize its contents. For example, under the **KeywordTests** node you will see individual KeywordTest nodes and under the **Script** node you will see individual Script Units. Certain nodes, like **Name Mapping** have no Project Item Elements and others have a fixed set like the **Stores** Project Item.
 
 ![](../media/image8.png)
 
-##### Code Explorer
+#### Code Explorer
 
 The **Code Explorer** tab (disabled by default in TestComplete 14 +) also contains a hierarchical view of your project but displays Code Metrics and related data about your project suite, projects, units and tests. The Code Explorer view provides a deeper hierarchy, making it useful to help navigate script routines in large suites and projects. The Code Explorer also allows you to cut-copy-paste and execute routines directly, via the context menu.
 
 ![](../media/image9.png)
  **Figure 4 \--Code Explorer Tab**
 
-##### TestedApps
+#### TestedApps
 
 TestComplete provides a specific type of Project Item, **TestedApps**, which allows you to associate specific applications with a project. TestedApps makes it easy to launch and work with applications from within your Keyword Tests or Script.
 
-##### TestedApps Columns
+#### TestedApps Columns
 
  The columns of the TestedApps Editor window are:
 
@@ -88,7 +88,7 @@ TestComplete provides a specific type of Project Item, **TestedApps**, which all
   **Run Mode**     How the application is launched.
   **Parameters**   Allows parameters to be set using the ellipses button.
 
-##### Run Mode
+#### Run Mode
 
 **Run Mode** determines the login account and execution context of a TestedApp. Run Mode can be one of the following values:
 **Simple** \-- Launches the application under the same user account as TestComplete. Parameters can be passed in Simple mode.
@@ -96,7 +96,7 @@ TestComplete provides a specific type of Project Item, **TestedApps**, which all
 **Debug** \-- Launches the application under the same user account as TestComplete, then TestComplete attaches to the application as a \"debugger\". The stack trace of any exception that occurs in the application while the test(s) are being run will be recorded in the test log. This option requires debug information in the application under test.
 **Profile** \-- Launches the application inside of AQtime using the profile (or AQtime project) specified in the parameters dialog. For example, code coverage profiling could be used to see how much of the code is being tested by your automated tests.
 
-##### Adding TestedApps to a Project
+#### Adding TestedApps to a Project
 
 1.  On the Project Explorer, right click the TestedApps node and select  **Add \| New Item\...**
 
@@ -116,7 +116,7 @@ The application is added to the list of TestedApps. Now you can change the File 
 
 The File Path dialog will let you simply navigate to a particular file and open it. The file path will be entered for you. Notice in the screenshot above that you can also substitute variables for \"%SYSTEMROOT%\" and \"%PROGRAM FILES%\". If you run the test on another machine, the \"System\" and \"Program Files\" directories may be located differently, so the test will be less likely to break if you use these variables instead of hard coded paths.
 
-##### Running a TestedApp
+#### Running a TestedApp
 
 TestedApps can be run interactively from the TestComplete IDE, from a keyword test or from script.
 To run the application from the TestComplete IDE, right-click the TestedApp and then select the **Run Selected** context menu option.
