@@ -19,8 +19,7 @@ TestComplete provides several different ways to refer to the same control. Below
 
 | **Reference**                     | **Example**                       |
 | ---|---|
-| **FullName Property**             | Sys.Process(\"Orders\").WinFormsObject(\"OrderForm\").
-                                        WinFormsObject(\"Group\").WinFormsObject(\"Customer\")|
+| **FullName Property**             | Sys.Process(\"Orders\").WinFormsObject(\"OrderForm\").WinFormsObject(\"Group\").WinFormsObject(\"Customer\")|
 | **Name Mapping**                  |  NameMapping.Sys.Orders.OrderForm.Group.Customer|
 | **Alias**                         | Aliases.Orders.OrderForm.Group.Customer|
 
