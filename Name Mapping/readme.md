@@ -92,6 +92,7 @@ The screenshot below shows the Object Name Mapping dialog for an edit box named 
 ![](../media/image146.png)
 
 The table below explains the elements of the Object Name Mapping dialog.
+
 |**Item**|**Meaning**|
 |---|---|
 |**Mapped Object Name**|Name of the object as it will appear in code|
