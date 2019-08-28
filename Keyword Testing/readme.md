@@ -12,7 +12,7 @@ Using the TestComplete Keyword Test Editor is intuitive and supports many of the
 Test Steps can easily be added or deleted from a Keyword Test. To delete a Test Step, simply select the row and press the Delete key. To add a Test Step either drag and drop an item from the Operations palette onto the test editor, use the editor\'s right click menu and select **Insert New Operation** or use the **Append to Test** toolbar button to record additional steps onto the end of the current test.
 The screenshot below shows an **If..Then** Operation dragged into an existing Keyword Test.
 
-![](./media/image30.jpeg)
+![](../media/image30.jpeg)
 
 
 To edit a specific step, double-click the step to invoke the corresponding dialog (e.g. On Screen Action, Log Message, and so on) .
@@ -21,12 +21,12 @@ To edit a specific step, double-click the step to invoke the corresponding dialo
 
 By default, the Keyword Test Editor records operations on objects that appear in the TestComplete **Object Browser** Tree view. Many of these objects include properties which return child objects you may want to manipulate in your test. To access these child object properties the Keyword Test Editor provides the **Work with Object Through Property\...** context menu option. The option allows you to choose a specific child object property on which to perform an action.
 
-![](./media/image31.png)
+![](../media/image31.png)
 
 
 For example, if you want to change the scroll position of a window that has scrollbars you\'ll need to manipulate the **HScroll** or **VScroll** object properties and set the **Pos** property of the scrollbar accordingly.
 
-![](./media/image32.png)
+![](../media/image32.png)
 
 
 #### Working with Operations
@@ -44,31 +44,31 @@ There are several ways to add operations to a Keyword Test including:
 
 - Using the recorder to append new steps to an existing test.
 
-![](./media/image33.jpeg)
+![](../media/image33.jpeg)
 
 
 ##### Using the Operations Palette
 
 Using the mouse, drag and drop an **Operation** from the palette onto the **Test Steps** editor at the desired location. Operations can be inserted before or after existing steps depending on the placement of the mouse at the time of the drop. The mouse cursor will display an arrow indicating the specific placement of the new step in relation to the other steps. The screenshot below shows a \"Run TestedApp" Operation being dragged to the Test Steps editor.
 
-![](./media/image34.png)
+![](../media/image34.png)
 
 ##### Using the Right Click Menu
 
 From the editor\'s right click context menu, Operations can be added using the **Insert New Operation** submenu. Several common Operations are included along with a **More Operations\...** menu item.
 
-![](./media/image35.png)
+![](../media/image35.png)
 
 
 Selecting **More Operations\...** from the **Insert New Operation** submenu displays the **Insert Operation** dialog**.** The dialog allows you to choose from a complete list of the possible Operations available in the Operation palette.
 
-![](./media/image36.png)
+![](../media/image36.png)
 
 ##### Using the Append to Test Button
 
 TestComplete provides the ability to append recorded steps to existing Keyword Tests using the **Append to Test** tool button on the Keyword Editor Toolbar. When this button is clicked, TestComplete minimizes and new recorded steps are added at the end of the active Keyword test.
 
-![](./media/image37.png)
+![](../media/image37.png)
 
 **Adding Conditional Logic**
 
@@ -97,7 +97,7 @@ This example adds logic to take the screenshot only if the sample \"Orders\" mai
 
 11. Select the **Test Actions** category within the **Operations** palette, then drag and drop the **If Object** operation onto the **Test Steps** editor right before our **Post Screenshot** step as shown in the screenshot below.
 
-![](./media/image38.png)
+![](../media/image38.png)
 
 Notice there is an indicator arrow that will point up-left if the Operation will drop above the selected step or down-left if the Operation will drop after the selected step.
 
@@ -105,15 +105,15 @@ Notice there is an indicator arrow that will point up-left if the Operation will
 
 13. With the Orders sample application still open, select the Order\'s Main window and click the **Next** button.
 
-![](./media/image39.png)
+![](../media/image39.png)
 
 14. Select the **Exists** condition and click **Finish** to complete adding the operation to your test.
 
-![](./media/image40.png)
+![](../media/image40.png)
 
 15. Next, indent the **Post Screenshot** step to make it a child step of the **If Object** operation.
 
-![](./media/image41.png)
+![](../media/image41.png)
 
 16. Run the test with and without the Orders window present.
 
@@ -133,17 +133,17 @@ By default, an **If\...Then** operation will not contain child operations, so th
 
 1.  To add an **If\...Then** operation to a Keyword Test select the Statements category within the Operations palette then drag and drop the **If..Then** operation onto the Test Steps editor. Dropping an If\...Then operation will invoke the If\...Then dialog to assist with constructing a Boolean condition for the operation:
 
-![](./media/image42.png)
+![](../media/image42.png)
 
 2.  Click the ellipsis button under the **Value1** column to display the Edit Value dialog:
 
 3.  Select **Code Expression** from the **Mode** drop down and type \"Aliases.Orders.MainForm. Exists\" as the **Value** then click the **OK** button.
 
-![](./media/image43.png)
+![](../media/image43.png)
 
 4.  Under the **Value2** column type \"True\" and click the **OK** button.
 
-![](./media/image44.png)
+![](../media/image44.png)
 
 5.  Use the Indent button on the Post Screenshot step to make it a child of the If\...Then operation.
 
@@ -162,7 +162,7 @@ TestComplete supports two types of variables:
 
 To view ProjectSuite or Project Variables double click the respective node from the Project Explorer and select the Variables tab at the bottom of the Workspace.
 
-![](./media/image45.png)
+![](../media/image45.png)
 
 #### Temporary and Persistent Variables
 
@@ -184,7 +184,7 @@ The meanings for Temporary and Persistent Variables columns are explained below:
 
 To create or delete variables use the right click context menu of the editor:
 
-![](./media/image46.png)
+![](../media/image46.png)
 
 To modify existing variables simply click the appropriate cell within the editor to change its value.
 
@@ -196,11 +196,11 @@ In this section will look at an example of using a Project Variable within a Key
 
 2.  Double click the Project node within the Project Explorer and click the **Variables** tab at the bottom of the Workspace:
 
-![](./media/image47.png)
+![](../media/image47.png)
 
 3.  Right click the **Temporary Variables** section and select **New Item.**
 
-![](./media/image48.png)
+![](../media/image48.png)
 
 4.  Click the **Name** column and enter \"MyTempVar\". Under the **Default Value** column enter \"a Project Variable\" (without the quotes)
 
@@ -208,17 +208,17 @@ In this section will look at an example of using a Project Variable within a Key
 
 6.  Click the **Logging** category of the Operations palette and drag & drop the **Log Message** operation onto the editor:
 
-![](./media/image49.png)
+![](../media/image49.png)
 
 7.  Click the **Next** button on the Log Message dialog and then click the ellipsis at the far right of row 1 to view the Edit Parameter dialog.
 
 8.  In the **Mode** drop down, select **Variable**. In the **Value** drop down select Project. Variables.MyTempVar.
 
-![](./media/image50.png)
+![](../media/image50.png)
 
 9.  Click the **Finish** button on the Log Message dialog. When you run this test, TestComplete will output the value of the Project Variable to the Test Log.
 
-![](./media/image51.png)
+![](../media/image51.png)
 
 In this section, we used a **Project Variable**, though we could have used a **ProjectSuite** or **Keyword Variable** in the same manner.
 
@@ -261,7 +261,7 @@ Let\'s create a Keyword Test that calls this function wrapped with **Try** and *
 
 1.  Create a new JScript project and add the function below to Unit1 (You can find the unit under **Advanced \| Script**):
 
-![](./media/image52.png)
+![](../media/image52.png)
 
 2.  Next, add a new Keyword Test to the project by right clicking the KeywordTests node in the Project Explorer and selecting **Add \| New Item\...**
 
@@ -269,15 +269,15 @@ Let\'s create a Keyword Test that calls this function wrapped with **Try** and *
 
 4.  On the Select Test dialog, select the \"DoSomething\" routine and click the **OK** button:
 
-![](./media/image53.png)
+![](../media/image53.png)
 
 5.  Click the **Run** button on the Keyword Test Editor. You should see this dialog and the test execution will end:
 
-![](./media/image54.png)
+![](../media/image54.png)
 
 When you look at the resulting log you can see that the test execution was interrupted by an exception:
 
-![](./media/image55.png)
+![](../media/image55.png)
 
 ##### Handling the Error
 
@@ -285,29 +285,29 @@ To catch this error and continue processing we can add the **Try** and **Catch**
 
 1.  Drag and drop the **Try** Operation from the **Statements** category to a point just above the Run Script Routine step. Next, indent the Run Script Routine step so that it appears nested under the Try operation:
 
-![](./media/image56.jpeg)
+![](../media/image56.jpeg)
 
 2.  Drag and drop the **Catch** operation below the **Run Script Routine**. Use the Indent/ Outdent buttons to make the Try and Catch operations appear at the same level, as shown in the screenshot below.
 
-![](./media/image57.jpeg)
+![](../media/image57.jpeg)
 
 At this point, all we need to do is add a **Log Message** Operation nested under our **Catch** step so we can output some information and illustrate that our Try\...Catch block is working. To do that:
 
 1.  Drag and drop a **Log Message** operation with a simple output message:
 
-![](./media/image58.png)
+![](../media/image58.png)
 
 2.  Indent the Log Message operation and the resulting Keyword Test should look like this:
 
-![](./media/image59.png)
+![](../media/image59.png)
 
 3.  Double-click the Project node and navigate to the Properties tab at the bottom of the Workspace. In the Playback category of options, uncheck the **Error Dialog** and **Stop on Error** check boxes.
 
-![](./media/image60.png)
+![](../media/image60.png)
 
 4.  Now, run the test again and review the resulting log output. The error still occurs, but the Log step from inside the Catch runs.
 
-![](./media/image61.png)
+![](../media/image61.png)
 
 #### Summary
 
