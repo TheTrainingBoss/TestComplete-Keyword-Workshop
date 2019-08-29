@@ -30,22 +30,6 @@
 [Web Testing](#Web_Testing)
 -------------------------------
 
-##### [Objectives](#Web_Testing)
-
-##### [Materials](#_bookmark195)
-
-##### [Web Application Testing Issues](#Web_Application_Testing_Issues)
-
-##### [Understanding The TestComplete View of Web](#Understanding_The_TestComplete_View_of_W)
-
-##### [Applications](#Understanding_The_TestComplete_View_of_W)
-
-##### [Web Tree Models](#Web_Tree_Models)
-
-##### [Web Stores & Checkpoints](#Web_Stores_&_Checkpoints)
-
-##### [Summary](#_bookmark207)
-
 [Mobile](#Mobile)
 ---------------------
 
