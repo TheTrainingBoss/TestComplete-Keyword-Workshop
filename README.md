@@ -24,20 +24,8 @@
 [Event Handling](./Event%20Handling)
 -------------------------------------
 
-[Data Driven Testing](#Data_Driven_Testing)
+[Data Driven Testing](./Data%20Driven%20Testing/readme.md)
 -----------------------------------------------
-
-##### [Objectives](#Data_Driven_Testing)
-
-##### [Materials](#_bookmark181)
-
-##### [The DB Table Object](#_bookmark181)
-
-##### [Creating a Data Driven Test](#Creating_a_Data_Driven_Test)
-
-##### [Database Table Checkpoint](#Database_Table_Checkpoint)
-
-##### [Summary](#_bookmark193)
 
 [Web Testing](#Web_Testing)
 -------------------------------
