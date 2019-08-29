@@ -27,7 +27,7 @@
 [Data Driven Testing](./Data%20Driven%20Testing/readme.md)
 -----------------------------------------------
 
-[Web Testing](#Web_Testing)
+[Web Testing](./Web%20Testing/readme.md)
 -------------------------------
 
 [Mobile](#Mobile)
