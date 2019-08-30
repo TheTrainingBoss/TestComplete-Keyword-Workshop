@@ -42,19 +42,8 @@
 [Manual Testing](./Manual%20Testing/readme.md)
 ---------------------------------------
 
-[Low Level Procedures](#low-level-procedures-2)
+[Low Level Procedures](./Low%20Level%20Procedures/readme.md)
 ---------------------------------------------------
-##### [Objectives](#low-level-procedures-2)
-
-##### [Materials](#about-low-level-procedures)
-
-##### [About Low Level Procedures](#about-low-level-procedures)
-
-##### [Recording Low Level Procedures](#recording-low-level-procedures)
-
-##### [Calling Low Level Procedures from Keyword Tests](#calling-low-level-procedures-from-keyword-tests)
-
-##### [Summary](#summary-2)
 
 [User Forms](#user-forms-2)
 --------------------------------
