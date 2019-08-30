@@ -1,3 +1,6 @@
+![](../media/testComplete_github.png)
+
+
 Table of Contents
 ---------------------------------------------
 
