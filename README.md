@@ -55,5 +55,5 @@ Table of Contents
 [Appendix A - Cheat Sheet](./Cheat%20Sheet/readme.md)
 ------------------------------------------------------------
 
-[Appendix B - Types of Testing](./Types%20of%29Testing/readme.md)
+[Appendix B - Types of Testing](./Types%20of%20Testing/readme.md)
 -------------------------------------------------------------------
