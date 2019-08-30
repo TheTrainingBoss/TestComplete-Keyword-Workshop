@@ -39,7 +39,7 @@
 [Distributed Testing](./Distributed%20Testing/readme.md)
 ----------------------------------------
 
-[Manual Testing](./manual%20testing/readme.md)
+[Manual Testing](./Manual%20Testing/readme.md)
 ---------------------------------------
 
 [Low Level Procedures](#low-level-procedures-2)
