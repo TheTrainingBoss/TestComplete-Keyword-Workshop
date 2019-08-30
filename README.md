@@ -1,4 +1,4 @@
-![](../media/testcomplete_github.png)
+![](./media/testcomplete_github.png)
 
 
 Table of Contents
