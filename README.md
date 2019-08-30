@@ -48,26 +48,8 @@
 [User Forms](./User%20Forms/readme.md)
 --------------------------------
 
-[Best Practices](#Best_Practices)
+[Best Practices](./Best%20Practices/readme.md)
 -------------------------------------
-
-##### [Objectives](#Best_Practices)
-
-##### [Communicating Test Results](#Communicating_Test_Results)
-
-##### [Plan your testing, but not that kind of planning](#Plan_your_testing,_but_not_that_kind_of_)
-
-##### [Organizing your TestComplete Projects](#Organizing_your_TestComplete_Projects)
-
-##### [Use a Source Control Repository](#Use_a_Source_Control_Repository)
-
-##### [Your Most Important Test](#Your_Most_Important_Test)
-
-##### [General](#General)
-
-##### [Web Page](#Web_Page)
-
-##### [Summary](#Summary)
 
 [Appendix A - Cheat Sheet](#Appendix_A_-_Cheat_Sheet)
 ------------------------------------------------------------
