@@ -1,6 +1,6 @@
 ![](./media/testcomplete_github.png)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T9CHA3EQESNWU&source=url)
+<!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T9CHA3EQESNWU&source=url) -->
 
 
 Table of Contents
